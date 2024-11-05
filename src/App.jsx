@@ -1,7 +1,11 @@
+import { Footer, Header, Menu } from './components';
+
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="container">
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   );
 };
